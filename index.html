@@ -38,27 +38,34 @@
 </blockquote>
 
 <h2>
-<a id="0-the-what-and-why" class="anchor" href="#0-the-what-and-why" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>0. The What and Why?</h2>
+<a id="0-what" class="anchor" href="#0-what" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>0. What?</h2>
 
-<p>A python package for image processing and scientific analysis of imaging modalities such as multi-frequency scanning probe microscopy,
-scanning tunneling spectroscopy, x-ray diffraction microscopy, and transmission electron microscopy.
+<p>A suite of utilities for image processing and scientific analysis of imaging modalities such as multi-frequency scanning probe microscopy, scanning tunneling spectroscopy, x-ray diffraction microscopy, and transmission electron microscopy.
 Classes implemented here are ported to a high performance computing platform at Oak Ridge National Laboratory (ORNL).</p>
 
 <h2>
-<a id="1-the-who" class="anchor" href="#1-the-who" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. The Who?</h2>
+<a id="1-why" class="anchor" href="#1-why" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. Why?</h2>
 
-<p>This project begun largely as the effort of materials scientists and physicists at the Center for Nanophase Materials Sciences <a href="https://www.ornl.gov/facility/cnms">https://www.ornl.gov/facility/cnms</a>
-to implement a python library for their own use and the benefit of CNMS users and hopefully the wider community of scientists that
-do imaging and advanced characterization of materials.</p>
+<p>There is that little thing called open science... </p>
 
 <h2>
-<a id="2-the-structure" class="anchor" href="#2-the-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. The Structure?</h2>
+<a id="2-who" class="anchor" href="#2-who" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Who?</h2>
 
-<p>The package structure is quite simple, with 4 modules:
-1. io
-2. processing
-3. analysis
-4. viz</p>
+<p>This project begun largely as the effort of materials scientists (<em>and a physicist</em>) in the SPM Group at the Center for Nanophase Materials Sciences <a href="https://www.ornl.gov/facility/cnms">https://www.ornl.gov/facility/cnms</a>, in implementing a python library to analyze the gargantuan stream of images that their microscopes generate; with a lot of help from for their CNMS facility users. By sharing their approach and code for analyzing materials imaging, they hope that it will benefit the wider community of materials science (and other would also follow suite see 1. ;-).</p>
+
+<h2>
+<a id="3-the-structure" class="anchor" href="#3-the-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. The Structure</h2>
+
+<p>The package structure is simple, with 4 modules:</p>
+
+<ol>
+<li><em>io</em></li>
+<li><em>processing</em></li>
+<li><em>analysis</em></li>
+<li><em>viz</em></li>
+</ol>
+
+<p>Once a microscopy data is converted into an HDF5 format by extending some of the simple classes in <em>io</em>. The user has access to the rest of the package structure and quite possibly a lot more! (Did we mention HPC?)</p>
         </section>
 
         <aside id="sidebar">
