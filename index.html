@@ -3,31 +3,34 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <title>Pycroscopy by pycroscopy</title>
   </head>
 
   <body>
-    <header>
+    <div id="container">
       <div class="inner">
-        <h1>Pycroscopy</h1>
-        <h2>A suite of utilities for image processing and scientific analysis of nanoscale imaging of materials. Classes implemented here are ported to a high performance computing platform at Oak Ridge National Laboratory.</h2>
-        <a href="https://github.com/pycroscopy/pycroscopy" class="button"><small>View project on</small> GitHub</a>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
+        <header>
+          <h1>Pycroscopy</h1>
+          <h2>A suite of utilities for image processing and scientific analysis of nanoscale imaging of materials. Classes implemented here are ported to a high performance computing platform at Oak Ridge National Laboratory.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/pycroscopy/pycroscopy/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/pycroscopy/pycroscopy/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/pycroscopy/pycroscopy" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
           <h1>
 <a id="pycroscopy" class="anchor" href="#pycroscopy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PyCroscopy</h1>
 
@@ -51,13 +54,14 @@ Classes implemented here are ported to a high performance computing platform at 
 <h2>
 <a id="2-who" class="anchor" href="#2-who" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. Who?</h2>
 
-<p>This project begun largely as an effort of materials scientists (<em>and a physicist</em>) at the <strong>C</strong>enter for <strong>N</strong>anophase <strong>M</strong>aterials <strong>S</strong>ciences (<a href="https://www.ornl.gov/facility/cnms">https://www.ornl.gov/facility/cnms</a>) to implement a python library that can withstand the analysis of the gargantuan stream of images that their microscopes generate; with a lot of help from for their friends: the CNMS facility users!
-By sharing their approach and code for analyzing materials imaging, they hope that it will benefit the wider community of materials science/physics (and hope so ardently that others would please follow suite see 1. ;-).</p>
+<p>This project begun largely as an effort by materials scientists (<em>and a physicist</em>) at the <strong>C</strong>enter for <strong>N</strong>anophase <strong>M</strong>aterials <strong>S</strong>ciences (<a href="https://www.ornl.gov/facility/cnms">https://www.ornl.gov/facility/cnms</a>) to implement a python library that can withstand the I/O, processing, and analysis of the gargantuan stream of images that their microscopes generate (thanks to the large CNMS users community!).</p>
+
+<p>By sharing their approach and code for analyzing materials imaging we hope that it will benefit the wider community of materials science/physics (and also hope quite ardently that other materials scientis would please follow suite see 1. ;-).</p>
 
 <h2>
 <a id="3-the-structure" class="anchor" href="#3-the-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. The Structure</h2>
 
-<p>The package structure is simple, with 4 modules:</p>
+<p>The package structure is simple, with 4 main modules:</p>
 
 <ol>
 <li><em>io</em></li>
@@ -69,25 +73,17 @@ By sharing their approach and code for analyzing materials imaging, they hope th
 <p>Once a microscopy data is converted into an HDF5 format by extending some of the simple classes in <em>io</em>, the user has access to the rest of the package.</p>
 
 <p>(on a High Performance Computing Platform if she/he is a CNMS user!) </p>
+
+<p>The PyCroscopy Team</p>
         </section>
 
-        <aside id="sidebar">
-          <a href="https://github.com/pycroscopy/pycroscopy/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/pycroscopy/pycroscopy/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+        <footer>
+          Pycroscopy is maintained by <a href="https://github.com/pycroscopy">pycroscopy</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
 
-          <p class="repo-owner"><a href="https://github.com/pycroscopy/pycroscopy"></a> is maintained by <a href="https://github.com/pycroscopy">pycroscopy</a>.</p>
-
-          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
+        
       </div>
     </div>
-
-  
   </body>
 </html>
