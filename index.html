@@ -20,7 +20,7 @@
     <header>
       <div class="inner">
         <h1>Pycroscopy</h1>
-        <h2>A suite of utilities for image processing and scientific analysis of nanoscale imaging of materials. Classes implemented here are ported to a high performance computing platform at Oak Ridge National Laboratory.</h2>
+        <h2>Scientific Analysis of Nanoscale Imaging of Materials.  (Providing a gateway to high performance computing facilties at Oak Ridge National Laboratory)</h2>
         <a href="https://github.com/pycroscopy/pycroscopy" class="button"><small>View project on</small> GitHub</a>
       </div>
     </header>
@@ -61,13 +61,17 @@ Classes implemented here are ported to a high performance computing platform at 
 <p>The package structure is simple, with 4 main modules:</p>
 
 <ol>
-<li><em>io</em></li>
-<li><em>processing</em></li>
-<li><em>analysis</em></li>
-<li><em>viz</em></li>
+<li>
+<code>io</code>: Input/Output from custom &amp; proprietary microscope formats to HDF5.</li>
+<li>
+<code>processing</code>: Multivariate Statistics, Machine Learning, and Filtering.</li>
+<li>
+<code>analysis</code>: Model-dependent analysis of image information.</li>
+<li>
+<code>viz</code>: Visualization and interactive slicing of high-dimensional data by lightweight Qt viewers.</li>
 </ol>
 
-<p>Once a microscopy data is converted into an HDF5 format by extending some of the simple classes in <em>io</em>, the user has access to the rest of the package.</p>
+<p>Once a microscope's data format is converted into an HDF5 format by extending some of the simple classes in <code>io</code>, the user has access to the rest of the utilities in the package.</p>
 
 <p>(on a High Performance Computing Platform if she/he is a CNMS user!) </p>
 
