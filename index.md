@@ -37,3 +37,15 @@ Once a user converts their microscope's data format into an HDF5 format, by simp
 **_The PyCroscopy Team_**
 
 @nlaanait (Numan Laanait), @ssomnath (Suhas Somnath), @CompPhysChris (Chris R. Smith), @stephenjesse (Stephen Jesse) and many more...
+
+Acknoledgements
+---------------
+The PyCroscopy Team would like to thanks the developers of the following software packages:
+   [Python](https://www.python.org)
+   [Anaconda Python](https://www.continuum.io/anaconda-overview)
+   [jupyter](http://jupyter.org/)
+   [Spyder](https://pythonhosted.org/spyder/)
+   [PyCharm](https://www.jetbrains.com/pycharm/)
+   [GitKraken](https://www.gitkraken.com/)
+   [GitHub Desktop](https://desktop.github.com/)
+   [PyVmMonitor](http://www.pyvmmonitor.com/)
