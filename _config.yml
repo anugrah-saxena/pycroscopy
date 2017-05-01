@@ -1,0 +1,8 @@
+title: Pycroscopy
+description: Scientific Analysis of Nanoscale Imaging of Materials.  (with a gateway to high performance computing facilties at Oak Ridge National Laboratory)
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-architect
+
+gems:
+  - jekyll-mentions
