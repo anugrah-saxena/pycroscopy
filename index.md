@@ -1,6 +1,3 @@
-pycroscopy
-==========
-
 What?
 --------------------
 A suite of utilities for image processing and scientific analysis of imaging modalities such as multi-frequency scanning probe microscopy, scanning tunneling spectroscopy, x-ray diffraction microscopy, and transmission electron microscopy.
