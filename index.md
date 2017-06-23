@@ -59,13 +59,8 @@ How?
 Acknowledgements
 ----------------
 Besides the packages used in pycroscopy, we would like to thank the developers of the following software packages:
-
-   [Python](https://www.python.org)
-   
-   [Anaconda Python](https://www.continuum.io/anaconda-overview)
-   
-   [jupyter](http://jupyter.org/)
-   
-   [PyCharm](https://www.jetbrains.com/pycharm/)
-   
-   [GitKraken](https://www.gitkraken.com/)
++ [Python](https://www.python.org)  
++ [Anaconda Python](https://www.continuum.io/anaconda-overview) 
++ [jupyter](http://jupyter.org/)
++ [PyCharm](https://www.jetbrains.com/pycharm/)
++ [GitKraken](https://www.gitkraken.com/)
