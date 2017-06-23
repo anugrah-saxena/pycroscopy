@@ -9,6 +9,30 @@ Why?
 ---------------
 There is that little thing called _open science_... 
 
+As we see it, there are a few challenges in microscopy / imaging and materials science:
+
+**1. Growing data sizes**
+  * Cannot use desktop computers for analysis 
+  * _Need: High performance computing, storage resources and compatible, scalable file structures_
+  
+**2. Increasing data complexity**
+  * Sophisticated imaging and spectroscopy modes resulting in 5,6,7... dimensional data
+  * _Need: Robust software and generalized data formatting_
+  
+**3. Multiple file formats**
+  * Different formats from each instrument. Proprietary in most cases
+  * Incompatible for correlation
+  * _Need: Open, instrument independent data format_
+  
+**4. Disjoint communities** 
+  * Similar analysis routines written by each community (SPM, STEM, TOF SIMs, XRD...) _independently_!
+  * _Need: Centralized repository, instrument agonistic analysis routines that bring communities together_
+  
+**5. Expensive analysis software**
+  * Software supplied with instruments often insufficient / incapable of custom analysis routines
+  * Commercial software (Eg: Matlab, Origin..) are often prohibitively expensive.
+  * _Need: Free, powerful, open souce, user-friendly software_
+
 Who?
 -----------
 This project begun largely as an effort by scientists and engineers at the **C**enter for **N**anophase **M**aterials **S**ciences ([CNMS](https://www.ornl.gov/facility/cnms)) to implement a python library that can support the I/O, processing, and analysis of the gargantuan stream of images that their microscopes generate (thanks to the large CNMS users community!).
