@@ -12,7 +12,7 @@ This project begun largely as an effort by scientists and engineers at the **C**
 By sharing our methodology and code for analyzing materials imaging we hope that it will benefit the wider community of materials science/physics. We also hope, quite ardently, that other materials scientists would follow suit. 
 ![](https://raw.githubusercontent.com/pycroscopy/pycroscopy/gh-pages/images/smiley_wink.png)
 
-**_The (core) pycroscopy team_**
+**_The (core) pycroscopy team_:**
 
 @nlaanait (Numan Laanait), @ssomnath (Suhas Somnath), @CompPhysChris (Chris R. Smith), @stephenjesse (Stephen Jesse) and many more...
 
