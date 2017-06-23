@@ -5,15 +5,26 @@ Classes implemented here are ported to a high performance computing platform at 
 
 More information on pycroscopy is available at our [project page](https://github.com/pycroscopy/pycroscopy)
 
+Who?
+-----------
+This project begun largely as an effort by scientists and engineers at the **C**enter for **N**anophase **M**aterials **S**ciences ([CNMS](https://www.ornl.gov/facility/cnms)) to implement a python library that can support the I/O, processing, and analysis of the gargantuan stream of images that their microscopes generate (thanks to the large CNMS users community!).
+
+By sharing our methodology and code for analyzing materials imaging we hope that it will benefit the wider community of materials science/physics. We also hope, quite ardently, that other materials scientists would follow suit. 
+![](https://raw.githubusercontent.com/pycroscopy/pycroscopy/gh-pages/images/smiley_wink.png)
+
+**_The (core) pycroscopy team_**
+
+@nlaanait (Numan Laanait), @ssomnath (Suhas Somnath), @CompPhysChris (Chris R. Smith), @stephenjesse (Stephen Jesse) and many more...
+
 Why?
 ---------------
 There is that little thing called _open science_... 
 
-As we see it, there are a few challenges in microscopy / imaging and materials science:
+As we see it, there are a few ~~problems~~ oppurtunities in microscopy / imaging and materials science:
 
 **1. Growing data sizes**
   * Cannot use desktop computers for analysis 
-  * _Need: High performance computing, storage resources and compatible, scalable file structures_
+  * _Need: High performance computing, storage resources and compatible, scalable file structures_ 
   
 **2. Increasing data complexity**
   * Sophisticated imaging and spectroscopy modes resulting in 5,6,7... dimensional data
@@ -32,17 +43,6 @@ As we see it, there are a few challenges in microscopy / imaging and materials s
   * Software supplied with instruments often insufficient / incapable of custom analysis routines
   * Commercial software (Eg: Matlab, Origin..) are often prohibitively expensive.
   * _Need: Free, powerful, open souce, user-friendly software_
-
-Who?
------------
-This project begun largely as an effort by scientists and engineers at the **C**enter for **N**anophase **M**aterials **S**ciences ([CNMS](https://www.ornl.gov/facility/cnms)) to implement a python library that can support the I/O, processing, and analysis of the gargantuan stream of images that their microscopes generate (thanks to the large CNMS users community!).
-
-By sharing our methodology and code for analyzing materials imaging we hope that it will benefit the wider community of materials science/physics. We also hope, quite ardently, that other materials scientists would follow suit. 
-![](https://raw.githubusercontent.com/pycroscopy/pycroscopy/gh-pages/images/smiley_wink.png)
-
-**_The (core) pycroscopy team_**
-
-@nlaanait (Numan Laanait), @ssomnath (Suhas Somnath), @CompPhysChris (Chris R. Smith), @stephenjesse (Stephen Jesse) and many more...
 
 How?
 -----------------
