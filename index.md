@@ -1,18 +1,18 @@
 pycroscopy
 ==========
 
-1. What?
+What?
 --------------------
 A suite of utilities for image processing and scientific analysis of imaging modalities such as multi-frequency scanning probe microscopy, scanning tunneling spectroscopy, x-ray diffraction microscopy, and transmission electron microscopy.
 Classes implemented here are ported to a high performance computing platform at Oak Ridge National Laboratory ([ORNL](https://www.ornl.gov/)).
 
 More information on pycroscopy available [here](https://github.com/pycroscopy/pycroscopy)
 
-2. Why?
+Why?
 ---------------
 There is that little thing called _open science_... 
 
-3. Who?
+Who?
 -----------
 This project begun largely as an effort by scientists and engineers at the **C**enter for **N**anophase **M**aterials **S**ciences ([CNMS](https://www.ornl.gov/facility/cnms)) to implement a python library that can support the I/O, processing, and analysis of the gargantuan stream of images that their microscopes generate (thanks to the large CNMS users community!).
 
@@ -23,7 +23,7 @@ By sharing our methodology and code for analyzing materials imaging we hope that
 
 @nlaanait (Numan Laanait), @ssomnath (Suhas Somnath), @CompPhysChris (Chris R. Smith), @stephenjesse (Stephen Jesse) and many more...
 
-3. How?
+How?
 -----------------
 The package structure is simple, with 3 main modules:
    1. `io`: Input/Output from custom & proprietary microscope formats to HDF5.
