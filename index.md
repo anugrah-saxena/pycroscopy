@@ -3,7 +3,9 @@ What?
 A suite of utilities for image processing and scientific analysis of imaging modalities such as multi-frequency scanning probe microscopy, scanning tunneling spectroscopy, x-ray diffraction microscopy, and transmission electron microscopy.
 Classes implemented here are ported to a high performance computing platform at Oak Ridge National Laboratory ([ORNL](https://www.ornl.gov/)).
 
-More information on pycroscopy is available at our [project page](https://github.com/pycroscopy/pycroscopy)
+More information on pycroscopy is available at our [project page](https://github.com/pycroscopy/pycroscopy). 
+
+TL;DR? - see this [short introduction](https://github.com/pycroscopy/pycroscopy/blob/master/docs/pycroscopy_2017_07_11.pdf).
 
 Who?
 -----------
